@@ -138,8 +138,8 @@ public class ShowData {
 		docElement.add(new Paragraph("Legend"));
 
 		//adds the content for the two items in the legend
-		docElement.add(new Paragraph("The fire symbol indicates the heater was turned on at lease once during the day.\n", smallerFont));
-		docElement.add(new Paragraph("The snowflake symbol indicates the air conditioning was turned on at lease once during the day.", smallerFont));
+		docElement.add(new Paragraph("The fire symbol indicates the heater was turned on at least once during the day.\n", smallerFont));
+		docElement.add(new Paragraph("The snowflake symbol indicates the air conditioning was turned on at least once during the day.", smallerFont));
 		
 		//adds more space
 		docElement.add(space);
